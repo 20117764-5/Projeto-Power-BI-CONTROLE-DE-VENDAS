@@ -1,0 +1,30 @@
+relationship b4474c8b-9f22-4978-9733-d67cb104c201
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CALENDARIO.DATA
+	toColumn: LocalDateTable_65cb1e60-598a-4e6a-846c-aa27b178421e.Date
+
+relationship d01fd958-b270-8c04-51d3-3a9efcbacbd9
+	fromColumn: META_2017.DATA
+	toColumn: CALENDARIO.DATA
+
+relationship d59828b4-2dc0-9fd9-8e39-9585bf4e686b
+	fromColumn: META_2018.DATA
+	toColumn: CALENDARIO.DATA
+
+relationship f817e759-b782-7305-9821-01af5405e92b
+	fromColumn: META_2019.DATA
+	toColumn: CALENDARIO.DATA
+
+relationship a5c4004a-f523-89c7-7005-fe06aaaeb7be
+	fromColumn: CONSOLIDADA.DATA
+	toColumn: CALENDARIO.DATA
+
+relationship dc53021d-8d85-4db2-9d8a-9c9716a3408b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: META_2020.DATA
+	toColumn: LocalDateTable_82e52c22-3ead-47a5-af83-aadefab54e89.Date
+
+relationship AutoDetected_8ee475e1-fd3c-4b29-9485-bba846ed331f
+	fromColumn: META_2020.NUMERO_CUPOM_FISCAL
+	toColumn: META_2019.NUMERO_CUPOM_FISCAL
+

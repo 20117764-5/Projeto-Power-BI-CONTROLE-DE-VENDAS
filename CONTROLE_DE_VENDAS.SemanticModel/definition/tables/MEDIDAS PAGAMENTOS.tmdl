@@ -1,0 +1,118 @@
+table 'MEDIDAS PAGAMENTOS'
+	lineageTag: 649b91dd-a343-46e3-b58c-5952a5250a33
+
+	measure 'FAT CREDITO' =
+			CALCULATE(SUM(CONSOLIDADA[TOTAL_VENDA])
+			            , FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO CRÉDITO")) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 18b8d84d-39f5-4062-9ea6-6eeb4a5c0281
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT DEBITO' =
+			CALCULATE(SUM(CONSOLIDADA[TOTAL_VENDA])
+			            , FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO DÉBITO")) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 829d9310-49b6-4543-81ee-88b51cf06187
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT DINHEIRO' =
+			CALCULATE(SUM(CONSOLIDADA[TOTAL_VENDA])
+			                ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "DINHEIRO")) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 73faa178-9654-455f-8c2c-12ef1ea923c3
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT CART''PRESENTE' =
+			CALCULATE(SUM(CONSOLIDADA[TOTAL_VENDA]) // SOMANDO APENAS A COLUNA DE TOTAL VENDA
+			                    ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO PRESENTE")) + 0
+			                    // FILTRANDO APENAS "CARTÃO PRESENTE" NA COLUNA
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: a56c125f-5fcd-48ed-8852-b1b26c01fe2b
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FATURAMENTO NÃO INFORMADO' =
+			CALCULATE(SUM(CONSOLIDADA[TOTAL_VENDA])
+			                            ,CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "NÃO INFORMADO") + 0
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 03633def-6fcf-46db-bb80-65aeff1ece06
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'QTDE CRÉDITO' =
+			CALCULATE(COUNTA(CONSOLIDADA[TOTAL_VENDA])
+			                ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO CRÉDITO")) + 0
+		formatString: 0
+		lineageTag: 470e0e33-3e1e-4a82-afae-8087be48df68
+
+	measure 'QTDE DINHEIRO' =
+			CALCULATE(COUNTA(CONSOLIDADA[TOTAL_VENDA])
+			                ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "DINHEIRO")) + 0
+		formatString: 0
+		lineageTag: 80dcadfe-edd7-45dd-a638-4fa767c458c2
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'QTDE DÉBITO' =
+			CALCULATE(COUNTA(CONSOLIDADA[TOTAL_VENDA])
+			                , FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO DÉBITO")) + 0
+		formatString: 0
+		lineageTag: e88fd53e-ae85-4a9a-b846-1a124612b32b
+
+	measure 'QTDE CART''PRESENTE' =
+			CALCULATE(COUNT(CONSOLIDADA[TOTAL_VENDA])
+			                    ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "CARTÃO PRESENTE")) + 0
+		formatString: 0
+		lineageTag: 2d05fee9-489e-427a-a794-d2eb815e0f0f
+
+	measure 'QDTE NÃO INFORMADO' =
+			CALCULATE(COUNTA(CONSOLIDADA[TOTAL_VENDA])
+			                        ,FILTER(CONSOLIDADA, CONSOLIDADA[FORM'PAGAMENTO] = "NÃO INFORMADO")) + 0
+		formatString: 0
+		lineageTag: d920064a-6827-48fa-8174-cd506b48a2dc
+
+	measure 'FTA CREDITO 2017' =
+			CALCULATE(SUM(META_2017[TOTAL_VENDA])
+			                    , FILTER(META_2017, META_2017[FORM'PAGAMENTO] = "CARTÃO CRÉDITO")
+			
+			                    // CALCULANDO VALOR DE DATAS
+			                    ,DATESBETWEEN(CALENDARIO[DATA]
+			                    ,("01/01/2017"), ("31/12/2017") - 10)) + 0
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 57db2d86-fbcc-42a6-90b9-1eebdb594dcf
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT CREDITO 2018' =
+			CALCULATE(SUM(META_2018[TOTAL_VENDA])
+			                    ,FILTER(META_2018, META_2018[FORM'PAGAMENTO] = "CARTÃO CRÉDITO")
+			
+			                    ,DATESBETWEEN(CALENDARIO[DATA], ("01/01/2018"), ("31/12/2018") - 10)) + 0
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 6b20975a-7401-495b-8f4f-b2d392070621
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT CREDITO 2019' =
+			CALCULATE(SUM(META_2019[TOTAL_VENDA])
+			                    ,FILTER(META_2019, META_2019[FORM'PAGAMENTO] = "CARTÃO CRÉDITO")
+			
+			                    ,DATESBETWEEN(CALENDARIO[DATA], ("01/01/2019"), ("31/12/2019") - 10)) + 0
+		formatString: 0
+		lineageTag: cf4e02bc-dca5-4635-8733-74f9e551d445
+
+	partition 'MEDIDAS PAGAMENTOS' = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

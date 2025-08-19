@@ -1,0 +1,4654 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "meta_2017": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta 2017": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "META_2017": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2017.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "DATA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "meta_2017.total_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "TOTAL_VENDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TOTAL_VENDA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2017.valor_cancelado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "VALOR_CANCELADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor cancelado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_CANCELADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2017.numero_cupom_fiscal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "NUMERO_CUPOM_FISCAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero cupom fiscal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NUMERO_CUPOM_FISCAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2017.vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "VENDEDORES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2017.formpagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2017",
+			          "ConceptualProperty": "FORM'PAGAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "form'pagamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta 2018": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "META_2018": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "DATA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.nome_do_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Nome do Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.nome_do_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Nome do Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.total_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "TOTAL_VENDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TOTAL_VENDA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.valor_cancelado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "VALOR_CANCELADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor cancelado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_CANCELADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.numero_cupom_fiscal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "NUMERO_CUPOM_FISCAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero cupom fiscal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NUMERO_CUPOM_FISCAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "VENDEDORES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2018.formpagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2018",
+			          "ConceptualProperty": "FORM'PAGAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "form'pagamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta 2019": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "META_2019": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "DATA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "DATA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "DATA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "DATA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "DATA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.data.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "DATA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.total_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "TOTAL_VENDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TOTAL_VENDA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.valor_cancelado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "VALOR_CANCELADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor cancelado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_CANCELADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.numero_cupom_fiscal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "NUMERO_CUPOM_FISCAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero cupom fiscal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NUMERO_CUPOM_FISCAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "VENDEDORES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "meta_2019.formpagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "META_2019",
+			          "ConceptualProperty": "FORM'PAGAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "form'pagamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consolidada": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "DATA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "DATA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_2017_x_2018": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "2017 X 2018"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2017 x 2018": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "x 2018": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida.fat_2018": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FAT 2018"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat 2018": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMENTO 2018": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.fat_2017": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FAT 2017"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat 2017": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMENTO 2017": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.total_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "TOTAL_VENDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TOTAL_VENDA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.valor_cancelado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "VALOR_CANCELADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor cancelado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VALOR_CANCELADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "VENDEDORES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedore": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VENDEDOR": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.formpagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "FORM'PAGAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "form'pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FORMA PGTO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.toogle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "TOOGLE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "toogle": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.faturamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FATURAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consolidada.NFe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CONSOLIDADA",
+			          "ConceptualProperty": "NF-e"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "NF-e": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NF e": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "e": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida.fat_2019": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FAT 2019"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat 2019": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.crescimento_perc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "CRESCIMENTO PERC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crescimento perc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.minimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "MINIMO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minimo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.maximo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "MAXIMO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maximo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.meta_2018": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "META 2018"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta 2018": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.meta_2019": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "META 2019"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta 2019": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medidas pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medida pagamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_credito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT CREDITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat credito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMENTO CRÉDITO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "CARTÃO CRÉDITO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_debito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT DEBITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat debito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMETO DÉBITO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "CARTÃO DÉBITO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_dinheiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT DINHEIRO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat dinheiro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMENTO DINHEIRO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_cartpresente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT CART'PRESENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat cart'presente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FATURAMENTO CARTÃO PRESENTE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.faturamento_não_informado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FATURAMENTO NÃO INFORMADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento não informado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.qtde_crédito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "QTDE CRÉDITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde crédito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.qtde_dinheiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "QTDE DINHEIRO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde dinheiro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.qtde_débito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "QTDE DÉBITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde débito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.qtde_cartpresente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "QTDE CART'PRESENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde cart'presente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.qdte_não_informado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "QDTE NÃO INFORMADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qdte não informado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fta_credito_2017": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FTA CREDITO 2017"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fta credito 2017": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FAT CREDITO 2017-10 DIAS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_credito_2018": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT CREDITO 2018"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat credito 2018": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FAT CREDITO 2018-10 DIAS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_pagamento.fat_credito_2019": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS PAGAMENTOS",
+			          "ConceptualProperty": "FAT CREDITO 2019"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fat credito 2019": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FAT CREDITO 2019-10 DIAS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.filtro_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FILTRO VENDEDOR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "filtro vendedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.filtro_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MEDIDAS",
+			          "ConceptualProperty": "FILTRO VENDA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "filtro venda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "calendario_data_trimestre_has_calendario_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.data.trimestre"
+			          }
+			        },
+			        "calendario.data.mê": {
+			          "Target": {
+			            "Entity": "calendario.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.mê"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_data_ano_has_calendario_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.ano": {
+			          "Target": {
+			            "Entity": "calendario.data.ano"
+			          }
+			        },
+			        "calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.ano"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "calendario_data_hierarquia_de_data_has_calendario_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "calendario.data.dia": {
+			          "Target": {
+			            "Entity": "calendario.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "calendario_data_hierarquia_de_data_has_calendario_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "calendario.data.mê": {
+			          "Target": {
+			            "Entity": "calendario.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "calendario_data_hierarquia_de_data_has_calendario_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_data_hierarquia_de_data_has_calendario_data_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "calendario.data.ano": {
+			          "Target": {
+			            "Entity": "calendario.data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "calendario_data_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data": {
+			          "Target": {
+			            "Entity": "calendario.data"
+			          }
+			        },
+			        "calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "calendario.data.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "consolidada_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "consolidada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_consolidadas"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "meta_2019"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_meta_2019"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "meta_2018"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_meta_2018"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "meta_2017"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_meta_2017"
+			        }
+			      ]
+			    },
+			    "medida_has_filtro_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.filtro_venda": {
+			          "Target": {
+			            "Entity": "medida.filtro_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.filtro_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_filtro_venda"
+			        }
+			      ]
+			    },
+			    "medida_has_filtro_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.filtro_vendedor": {
+			          "Target": {
+			            "Entity": "medida.filtro_vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.filtro_vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_filtro_vendedor"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_medidas_pagamento_fat_credito_2019": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "medidas_pagamento.fat_credito_2019": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_credito_2019"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_credito_2019"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_fat_credito_2019"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_medidas_pagamento_fat_credito_2018": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "medidas_pagamento.fat_credito_2018": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_credito_2018"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_credito_2018"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_fat_credito_2018"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_medidas_pagamento_fta_credito_2017": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "medidas_pagamento.fta_credito_2017": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fta_credito_2017"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fta_credito_2017"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_fta_credito_2017"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_qdte_não_informado": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.qdte_não_informado": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.qdte_não_informado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.qdte_não_informado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_qdte_não_informado"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_qtde_cartpresente": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.qtde_cartpresente": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.qtde_cartpresente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.qtde_cartpresente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_qtde_cartpresente"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_qtde_débito": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.qtde_débito": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.qtde_débito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.qtde_débito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_qtde_débito"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_qtde_dinheiro": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.qtde_dinheiro": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.qtde_dinheiro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.qtde_dinheiro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_qtde_dinheiro"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_qtde_crédito": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.qtde_crédito": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.qtde_crédito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.qtde_crédito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_qtde_crédito"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_faturamento_não_informado": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.faturamento_não_informado": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.faturamento_não_informado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.faturamento_não_informado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_faturamento_não_informado"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_fat_cartpresente": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.fat_cartpresente": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_cartpresente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_cartpresente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_fat_cartpresente"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_fat_dinheiro": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.fat_dinheiro": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_dinheiro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_dinheiro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_fat_dinheiro"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_fat_debito": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.fat_debito": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_debito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_debito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_fat_debito"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medidas_pagamento_fat_credito": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medidas_pagamento.fat_credito": {
+			          "Target": {
+			            "Entity": "medidas_pagamento.fat_credito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medidas_pagamento.fat_credito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_fat_credito"
+			        }
+			      ]
+			    },
+			    "medida_has_meta_2019": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.meta_2019": {
+			          "Target": {
+			            "Entity": "medida.meta_2019"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.meta_2019"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_meta_2019"
+			        }
+			      ]
+			    },
+			    "medida_has_meta_2018": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.meta_2018": {
+			          "Target": {
+			            "Entity": "medida.meta_2018"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.meta_2018"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_meta_2018"
+			        }
+			      ]
+			    },
+			    "medida_has_maximo": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.maximo": {
+			          "Target": {
+			            "Entity": "medida.maximo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.maximo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_maximo"
+			        }
+			      ]
+			    },
+			    "medida_has_minimo": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.minimo": {
+			          "Target": {
+			            "Entity": "medida.minimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.minimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_minimo"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_medida_crescimento_perc": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "medida.crescimento_perc": {
+			          "Target": {
+			            "Entity": "medida.crescimento_perc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "medida.crescimento_perc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_crescimento_perc"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_medida_crescimento_perc": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "medida.crescimento_perc": {
+			          "Target": {
+			            "Entity": "medida.crescimento_perc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "medida.crescimento_perc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_crescimento_perc"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_medida_fat_2019": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "medida.fat_2019": {
+			          "Target": {
+			            "Entity": "medida.fat_2019"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "medida.fat_2019"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_fat_2019"
+			        }
+			      ]
+			    },
+			    "consolidada_has_NFe": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.NFe": {
+			          "Target": {
+			            "Entity": "consolidada.NFe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.NFe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_NFe"
+			        }
+			      ]
+			    },
+			    "consolidada_has_medida_faturamento": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "medida.faturamento": {
+			          "Target": {
+			            "Entity": "medida.faturamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_faturamento"
+			        }
+			      ]
+			    },
+			    "consolidada_has_toogle": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.toogle": {
+			          "Target": {
+			            "Entity": "consolidada.toogle"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.toogle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_toogles"
+			        }
+			      ]
+			    },
+			    "consolidada_has_formpagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.formpagamento": {
+			          "Target": {
+			            "Entity": "consolidada.formpagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.formpagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_formpagamentos"
+			        }
+			      ]
+			    },
+			    "consolidada_has_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.vendedore": {
+			          "Target": {
+			            "Entity": "consolidada.vendedore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.vendedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_vendedores"
+			        }
+			      ]
+			    },
+			    "consolidada_has_valor_cancelado": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.valor_cancelado": {
+			          "Target": {
+			            "Entity": "consolidada.valor_cancelado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.valor_cancelado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_valor_cancelados"
+			        }
+			      ]
+			    },
+			    "consolidada_has_total_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.total_venda": {
+			          "Target": {
+			            "Entity": "consolidada.total_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.total_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_total_venda"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "consolidada.total_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_venda_indicates_how_expensive_consolidadas_are"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_medida_fat_2017": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "medida.fat_2017": {
+			          "Target": {
+			            "Entity": "medida.fat_2017"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "medida.fat_2017"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_fat_2017"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_medida_fat_2018": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "medida.fat_2018": {
+			          "Target": {
+			            "Entity": "medida.fat_2018"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "medida.fat_2018"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_fat_2018"
+			        }
+			      ]
+			    },
+			    "medida_has_entity_2017_x_2018": {
+			      "Binding": {
+			        "ConceptualEntity": "MEDIDAS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.entity_2017_x_2018": {
+			          "Target": {
+			            "Entity": "medida.entity_2017_x_2018"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_2017_x_2018"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_2017_x_2018"
+			        }
+			      ]
+			    },
+			    "calendario_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.data": {
+			          "Target": {
+			            "Entity": "calendario.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "consolidada_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "CONSOLIDADA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consolidada": {
+			          "Target": {
+			            "Entity": "consolidada"
+			          }
+			        },
+			        "consolidada.data": {
+			          "Target": {
+			            "Entity": "consolidada.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consolidada"
+			            },
+			            "Object": {
+			              "Role": "consolidada.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consolidadas_have_data"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_formpagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.formpagamento": {
+			          "Target": {
+			            "Entity": "meta_2019.formpagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.formpagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_formpagamentos"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.vendedore": {
+			          "Target": {
+			            "Entity": "meta_2019.vendedore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.vendedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_vendedores"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_numero_cupom_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.numero_cupom_fiscal": {
+			          "Target": {
+			            "Entity": "meta_2019.numero_cupom_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.numero_cupom_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_numero_cupom_fiscals"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_valor_cancelado": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.valor_cancelado": {
+			          "Target": {
+			            "Entity": "meta_2019.valor_cancelado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.valor_cancelado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_valor_cancelados"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_total_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.total_venda": {
+			          "Target": {
+			            "Entity": "meta_2019.total_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.total_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_total_venda"
+			        }
+			      ]
+			    },
+			    "meta_2019_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2019": {
+			          "Target": {
+			            "Entity": "meta_2019"
+			          }
+			        },
+			        "meta_2019.data": {
+			          "Target": {
+			            "Entity": "meta_2019.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2019"
+			            },
+			            "Object": {
+			              "Role": "meta_2019.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2019_have_data"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_formpagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.formpagamento": {
+			          "Target": {
+			            "Entity": "meta_2018.formpagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.formpagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_formpagamentos"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.vendedore": {
+			          "Target": {
+			            "Entity": "meta_2018.vendedore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.vendedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_vendedores"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_numero_cupom_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.numero_cupom_fiscal": {
+			          "Target": {
+			            "Entity": "meta_2018.numero_cupom_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.numero_cupom_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_numero_cupom_fiscals"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_valor_cancelado": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.valor_cancelado": {
+			          "Target": {
+			            "Entity": "meta_2018.valor_cancelado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.valor_cancelado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_valor_cancelados"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_total_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.total_venda": {
+			          "Target": {
+			            "Entity": "meta_2018.total_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.total_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_total_venda"
+			        }
+			      ]
+			    },
+			    "calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.ano": {
+			          "Target": {
+			            "Entity": "calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "calendario_has_nome_do_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.nome_do_mê": {
+			          "Target": {
+			            "Entity": "calendario.nome_do_mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.nome_do_mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_nome_do_mê"
+			        }
+			      ]
+			    },
+			    "calendario_has_nome_do_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.nome_do_dia": {
+			          "Target": {
+			            "Entity": "calendario.nome_do_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.nome_do_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_nome_do_dias"
+			        }
+			      ]
+			    },
+			    "calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "meta_2018_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2018"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2018": {
+			          "Target": {
+			            "Entity": "meta_2018"
+			          }
+			        },
+			        "meta_2018.data": {
+			          "Target": {
+			            "Entity": "meta_2018.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2018"
+			            },
+			            "Object": {
+			              "Role": "meta_2018.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2018_have_data"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_formpagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.formpagamento": {
+			          "Target": {
+			            "Entity": "meta_2017.formpagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.formpagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_formpagamentos"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.vendedore": {
+			          "Target": {
+			            "Entity": "meta_2017.vendedore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.vendedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_vendedores"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_numero_cupom_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.numero_cupom_fiscal": {
+			          "Target": {
+			            "Entity": "meta_2017.numero_cupom_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.numero_cupom_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_numero_cupom_fiscals"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_valor_cancelado": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.valor_cancelado": {
+			          "Target": {
+			            "Entity": "meta_2017.valor_cancelado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.valor_cancelado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_valor_cancelados"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_total_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.total_venda": {
+			          "Target": {
+			            "Entity": "meta_2017.total_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.total_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_total_venda"
+			        }
+			      ]
+			    },
+			    "meta_2017_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "META_2017"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "meta_2017": {
+			          "Target": {
+			            "Entity": "meta_2017"
+			          }
+			        },
+			        "meta_2017.data": {
+			          "Target": {
+			            "Entity": "meta_2017.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "meta_2017"
+			            },
+			            "Object": {
+			              "Role": "meta_2017.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meta_2017_have_data"
+			        }
+			      ]
+			    },
+			    "calendario_data_mê_has_calendario_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.data.mê": {
+			          "Target": {
+			            "Entity": "calendario.data.mê"
+			          }
+			        },
+			        "calendario.data.dia": {
+			          "Target": {
+			            "Entity": "calendario.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.mê"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.data.dia"
+			            },
+			            "Object": {
+			              "Role": "calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

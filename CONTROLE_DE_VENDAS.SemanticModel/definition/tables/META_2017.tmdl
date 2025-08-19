@@ -1,0 +1,96 @@
+table META_2017
+	lineageTag: b3fb9208-4053-4242-80fd-2e639b85f744
+
+	column DATA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8cb3f5ce-3e6f-40c3-bf7d-67f2d8a18264
+		summarizeBy: none
+		sourceColumn: DATA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TOTAL_VENDA
+		dataType: int64
+		formatString: 0
+		lineageTag: a41e4c45-a941-419d-8299-88972de6dfb0
+		summarizeBy: sum
+		sourceColumn: TOTAL_VENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALOR_CANCELADO
+		dataType: double
+		lineageTag: 1562e6c3-d1c8-48ad-9c06-8c831ac00d58
+		summarizeBy: sum
+		sourceColumn: VALOR_CANCELADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NUMERO_CUPOM_FISCAL
+		dataType: int64
+		formatString: 0
+		lineageTag: 8fadd679-4285-448a-a65e-f52aa689e02c
+		summarizeBy: sum
+		sourceColumn: NUMERO_CUPOM_FISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENDEDORES
+		dataType: string
+		lineageTag: fd5dfbfe-26e2-4105-adaa-039a0bd8b8c9
+		summarizeBy: none
+		sourceColumn: VENDEDORES
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FORM''PAGAMENTO'
+		dataType: string
+		lineageTag: 1d1543f0-7a37-46d4-88a5-353d2aac0791
+		summarizeBy: none
+		sourceColumn: FORM'PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition META_2017 = m
+		mode: import
+		source = ```
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\thiag\OneDrive\Ambiente de Trabalho\3_MODULO  - POWER_BI - Expert Sênior\3_CONTROLE DE VENDAS\4_1_meta_2017.xlsx"), null, true),
+				    META_2017_Sheet = Fonte{[Item="META_2017",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(META_2017_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"DATA", type datetime}, {"TOTAL_VENDA", Int64.Type}, {"CAIXA_VENDEDOR", type any}, {"COD_FORMA_PGTO", type any}, {"VALOR_CANCELADO", type number}, {"NUMERO_CUPOM_FISCAL", Int64.Type}}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Tipo Alterado",{{"DATA", type date}, {"CAIXA_VENDEDOR", type text}, {"COD_FORMA_PGTO", type text}, {"NUMERO_CUPOM_FISCAL", type text}}),
+				    
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Tipo Alterado1", "VENDEDORES", 
+				    each if Text.Contains([CAIXA_VENDEDOR], "8080") then "NATALIA" 
+				    else if Text.Contains([CAIXA_VENDEDOR], "UGB") then "UMBERTO" 
+				    else if Text.Contains([CAIXA_VENDEDOR], "WAO") then "WAGNER" 
+				    else if Text.Contains([CAIXA_VENDEDOR], "WAP") then "LUCIA" 
+				    else "VENDEDOR NÃO CADASTRADO"),
+				   
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Coluna Condicional Adicionada",{{"VENDEDORES", type text}}),
+				    
+				    #"Coluna Condicional Adicionada1" = Table.AddColumn(#"Tipo Alterado2", "FORM'PAGAMENTO", 
+				    each if Text.Contains([COD_FORMA_PGTO], "1") then "DINHEIRO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "3") then "CARTÃO DÉBITO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "4") then "CARTÃO CRÉDITO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "##") then "CARTÃO PRESENTE" 
+				    else if Text.Contains([COD_FORMA_PGTO], "$$") then "NÃO INFORMADO" 
+				    else "FORMA NÃO CADASTRADA"),
+				    
+				    #"Tipo Alterado3" = Table.TransformColumnTypes(#"Coluna Condicional Adicionada1",{{"FORM'PAGAMENTO", type text}}),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Tipo Alterado3",{"DATA", "TOTAL_VENDA", "VALOR_CANCELADO", "NUMERO_CUPOM_FISCAL", "VENDEDORES", "FORM'PAGAMENTO"}),
+				    #"Tipo Alterado4" = Table.TransformColumnTypes(#"Outras Colunas Removidas",{{"DATA", type date}, {"NUMERO_CUPOM_FISCAL", Int64.Type}})
+				in
+				    #"Tipo Alterado4"
+				```
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

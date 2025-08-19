@@ -1,0 +1,103 @@
+table META_2020
+	lineageTag: c0a481e8-6d31-4e6b-9151-51e276916e9d
+
+	column DATA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f436e145-55e3-4e8a-ba8a-e09c1176a07d
+		summarizeBy: none
+		sourceColumn: DATA
+
+		variation Variation
+			isDefault
+			relationship: dc53021d-8d85-4db2-9d8a-9c9716a3408b
+			defaultHierarchy: LocalDateTable_82e52c22-3ead-47a5-af83-aadefab54e89.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TOTAL_VENDA
+		dataType: int64
+		formatString: 0
+		lineageTag: 842fdcb4-56aa-40ac-af8d-25f5ce505039
+		summarizeBy: sum
+		sourceColumn: TOTAL_VENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALOR_CANCELADO
+		dataType: int64
+		formatString: 0
+		lineageTag: c0e51b22-63f2-4afa-9ef1-682b0d13e156
+		summarizeBy: sum
+		sourceColumn: VALOR_CANCELADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMERO_CUPOM_FISCAL
+		dataType: int64
+		formatString: 0
+		lineageTag: 8d49f17d-b4eb-40d0-99b3-a7be75b24def
+		summarizeBy: none
+		sourceColumn: NUMERO_CUPOM_FISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENDEDORES
+		dataType: string
+		lineageTag: bb106684-4e50-4a1a-aebe-7483915afcbd
+		summarizeBy: none
+		sourceColumn: VENDEDORES
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FORM''PAGAMENTO'
+		dataType: string
+		lineageTag: eeecdaea-0f02-4e8f-b666-3a16916dfd32
+		summarizeBy: none
+		sourceColumn: FORM'PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition META_2020 = m
+		mode: import
+		source = ```
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\thiag\OneDrive\Ambiente de Trabalho\3_MODULO  - POWER_BI - Expert Sênior\3_CONTROLE DE VENDAS\meta_2020.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"DATA", type date}, {"TOTAL_VENDA", Int64.Type}, {"CAIXA_VENDEDOR", type text}, {"COD_FORMA_PGTO", type text}, {"VALOR_CANCELADO", Int64.Type}, {"NUMERO_CUPOM_FISCAL", Int64.Type}}),
+				
+				    #"DEPARA VENDEDOR" = Table.AddColumn(#"Tipo Alterado", "VENDEDORES", 
+				    each if Text.Contains([CAIXA_VENDEDOR], "POP") then "PAULO" 
+				    else if Text.Contains([CAIXA_VENDEDOR], "UFG") then "LEONARDO" 
+				    else if Text.Contains([CAIXA_VENDEDOR], "TYT") then "YOLANDA"
+				    else if Text.Contains([CAIXA_VENDEDOR], "BIP") then "BRUNO"  
+				    else if Text.Contains([CAIXA_VENDEDOR], "SMP") then "SAMIRA"
+				    else if Text.Contains([CAIXA_VENDEDOR], "PML") then "LUCAS"
+				    else if Text.Contains([CAIXA_VENDEDOR], "TDY") then "TELMA"
+				    else "VENDEDOR NÃO CADASTRADO"),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"DEPARA VENDEDOR",{{"VENDEDORES", type text}}),
+				
+				    #"DEPARA PAGAMENTO" = Table.AddColumn(#"Tipo Alterado1", "FORM'PAGAMENTO", 
+				    each if Text.Contains([COD_FORMA_PGTO], "1") then "DINHEIRO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "3") then "CARTÃO DÉBITO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "4") then "CARTÃO CRÉDITO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "##") then "CARTÃO PRESENTE" 
+				    else if Text.Contains([COD_FORMA_PGTO], "$$") then "NÃO INFORMADO" 
+				    else if Text.Contains([COD_FORMA_PGTO], "px") then "PIX" 
+				    else "FORMA NÃO CADASTRADA"),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"DEPARA PAGAMENTO",{{"FORM'PAGAMENTO", type text}}),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Tipo Alterado2",{"DATA", "TOTAL_VENDA", "VALOR_CANCELADO", "NUMERO_CUPOM_FISCAL", "VENDEDORES", "FORM'PAGAMENTO"}),
+				    #"Tipo Alterado3" = Table.TransformColumnTypes(#"Outras Colunas Removidas",{{"NUMERO_CUPOM_FISCAL", type text}}),
+				    #"Tipo Alterado4" = Table.TransformColumnTypes(#"Tipo Alterado3",{{"NUMERO_CUPOM_FISCAL", Int64.Type}})
+				
+				in
+				    #"Tipo Alterado4"
+				```
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

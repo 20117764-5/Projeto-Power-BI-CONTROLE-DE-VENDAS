@@ -1,0 +1,91 @@
+table CONSOLIDADA
+	lineageTag: 3b70fc2b-10cd-4fa3-9d24-9cc7d0100525
+
+	column DATA
+		dataType: dateTime
+		formatString: dd/mm/yy
+		lineageTag: 86467859-c216-4150-a686-72155979fa6c
+		summarizeBy: none
+		sourceColumn: DATA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column TOTAL_VENDA
+		dataType: int64
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 36c8591d-9266-488d-a3b2-f417b0b7847d
+		summarizeBy: sum
+		sourceColumn: TOTAL_VENDA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column VALOR_CANCELADO
+		dataType: double
+		lineageTag: 2b8dd281-74fb-4234-a335-70dc9ce090b5
+		summarizeBy: sum
+		sourceColumn: VALOR_CANCELADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VENDEDORES
+		dataType: string
+		lineageTag: 0bfe741c-0fad-4d21-bd2b-1d2ec486ca52
+		summarizeBy: none
+		sourceColumn: VENDEDORES
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FORM''PAGAMENTO'
+		dataType: string
+		lineageTag: 02c54e4a-9a8f-4ce9-b9a1-fbcb2bae5ec0
+		summarizeBy: none
+		sourceColumn: FORM'PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TOOGLE
+		dataType: string
+		lineageTag: 965222a5-41b5-4396-9beb-d9fde1b1080f
+		summarizeBy: none
+		sourceColumn: TOOGLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column NF-e
+		dataType: string
+		lineageTag: 433b42a5-8b60-43da-acb3-71811edc4a99
+		summarizeBy: none
+		sourceColumn: NF-e
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CONSOLIDADA = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.Combine({META_2017, META_2018, META_2019}),
+				    #"Consulta Acrescentada" = Table.Combine({Fonte, META_2020}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Consulta Acrescentada", each true),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Linhas Filtradas", "Personalizar", each if [#"FORM'PAGAMENTO"] = "DINHEIRO" then "RECEBIMENTO IMEDIATO" else if Text.Contains([#"FORM'PAGAMENTO"], "PIX") then "RECEBIMENTO IMEDIATO" else "RECEBIMENTO PARCELADO"),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Condicional Adicionada",{{"Personalizar", "TOOGLE"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"TOOGLE", type text}, {"NUMERO_CUPOM_FISCAL", type text}}),
+				    #"Personalização Adicionada" = Table.AddColumn(#"Tipo Alterado", "Personalizar", each Text.PadStart([NUMERO_CUPOM_FISCAL] , 9 , "0")),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Personalização Adicionada",{{"Personalizar", "NF-e"}}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Colunas Renomeadas1",{{"NF-e", type text}}),
+				    #"Linhas Filtradas1" = Table.SelectRows(#"Tipo Alterado1", each true),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Linhas Filtradas1",{"DATA", "TOTAL_VENDA", "VALOR_CANCELADO", "VENDEDORES", "FORM'PAGAMENTO", "TOOGLE", "NF-e"})
+				in
+				    #"Outras Colunas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,80 @@
+table MEDIDAS
+	lineageTag: 4549d13e-496c-4f50-981c-7ebccb6d2bc3
+
+	measure FATURAMENTO = SUM(CONSOLIDADA[TOTAL_VENDA])
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 18a7cba2-9634-4f64-bb3c-f3634d7f8f54
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT 2017' = SUM(META_2017[TOTAL_VENDA]) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 77243bff-b09c-4147-a192-589726e6b6f2
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'FAT 2018' = SUM(META_2018[TOTAL_VENDA]) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 7637d9da-cd57-41fa-960a-b527eaab88b4
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure '2017 X 2018' = IF([FAT 2017]>= [FAT 2018], "GREEN", "YELLOW")
+		lineageTag: 14e92f8f-aa80-4ad6-bde1-08aaec98d898
+
+	measure 'FAT 2019' = SUM(META_2019[TOTAL_VENDA]) + 0
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		lineageTag: 0c6e8115-2540-40a5-a3b5-dfd01d526e8c
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'CRESCIMENTO PERC' =
+			DIVIDE([FAT 2019] - [FAT 2018],
+			                    [FAT 2018])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 7ddd6ba7-921f-422f-9d48-a3ded6feb57b
+
+	measure MINIMO = 0
+		formatString: 0
+		lineageTag: e8d86c92-c591-4ab9-b33a-073e27ddd7eb
+
+	measure MAXIMO = 1000000
+		formatString: 0
+		lineageTag: f609065e-4508-455b-b569-84f680a3e375
+
+	measure 'META 2018' = 165000
+		formatString: 0
+		lineageTag: 1fcb582c-9b51-4a48-b44f-7b79ace1c292
+
+	measure 'META 2019' = 320000
+		formatString: 0
+		lineageTag: a26e2d2a-c6f5-4c0c-a30c-d94f69b7fbfb
+
+	measure 'FILTRO VENDEDOR' = SELECTEDVALUE(CONSOLIDADA[VENDEDORES], "Selecione um vendedor")
+		lineageTag: 988adb30-64e8-411f-8869-332c1e34ea4b
+
+	measure 'FILTRO VENDA' = SELECTEDVALUE(CONSOLIDADA[TOTAL_VENDA], "Selecione uma venda")
+		lineageTag: 40662281-82d1-4968-b6f8-5c4e9e745e77
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'FAT 2020' = SUM(META_2020[TOTAL_VENDA]) + 0
+		formatString: 0
+		lineageTag: f1c53a91-9a69-4cf2-95cf-c8d080117c29
+
+	measure 'META 2020' = 450000
+		formatString: 0
+		lineageTag: 6f2d811f-9e7c-4b85-bfc9-87e4bb6e9cdc
+
+	partition MEDIDAS = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

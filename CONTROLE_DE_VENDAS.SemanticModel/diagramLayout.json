@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 99.361639415359832,
+        "y": 43
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 68.18475118062986,
+            "y": 265
+          },
+          "nodeIndex": "CONSOLIDADA",
+          "nodeLineageTag": "3b70fc2b-10cd-4fa3-9d24-9cc7d0100525",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "META_2017",
+          "nodeLineageTag": "b3fb9208-4053-4242-80fd-2e639b85f744",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 243.36163941535983,
+            "y": 0
+          },
+          "nodeIndex": "META_2018",
+          "nodeLineageTag": "8a59b01a-5013-4e08-afc0-e0b5e1541500",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 487,
+            "y": 1
+          },
+          "nodeIndex": "META_2019",
+          "nodeLineageTag": "c2377bd7-4a46-41f7-94b1-25a27aa8e57e",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 575.36163941535983,
+            "y": 268.06497086377334
+          },
+          "nodeIndex": "MEDIDAS",
+          "nodeLineageTag": "4549d13e-496c-4f50-981c-7ebccb6d2bc3",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 323.36163941535983,
+            "y": 265.06497086377334
+          },
+          "nodeIndex": "CALENDARIO",
+          "nodeLineageTag": "e2858d5f-af96-41f5-8a2a-30c53c6fc84e",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 859.36163941535983,
+            "y": 192.5
+          },
+          "nodeIndex": "MEDIDAS PAGAMENTOS",
+          "nodeLineageTag": "649b91dd-a343-46e3-b58c-5952a5250a33",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1143.3616394153598,
+            "y": 132.5
+          },
+          "nodeIndex": "META_2020",
+          "nodeLineageTag": "c0a481e8-6d31-4e6b-9151-51e276916e9d",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

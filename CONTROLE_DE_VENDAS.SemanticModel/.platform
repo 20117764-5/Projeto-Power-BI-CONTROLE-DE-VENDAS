@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "CONTROLE_DE_VENDAS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "17be3395-d668-4cf2-8478-f432e0771ca9"
+  }
+}

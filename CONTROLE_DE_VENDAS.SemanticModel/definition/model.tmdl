@@ -1,0 +1,30 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["META_2017","META_2018","META_2019","META_2020","CONSOLIDADA","MEDIDAS","Consulta1","CALENDARIO","MEDIDAS PAGAMENTOS"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1577.0 (25.02)+00af0910c5ca19a229c472b0dfc17a2c488f6b0a
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table META_2017
+ref table DateTableTemplate_df531017-813b-4251-9705-8f76d78326f1
+ref table META_2018
+ref table META_2019
+ref table CONSOLIDADA
+ref table MEDIDAS
+ref table CALENDARIO
+ref table LocalDateTable_65cb1e60-598a-4e6a-846c-aa27b178421e
+ref table 'MEDIDAS PAGAMENTOS'
+ref table META_2020
+ref table LocalDateTable_82e52c22-3ead-47a5-af83-aadefab54e89
+
+ref cultureInfo pt-BR
+
